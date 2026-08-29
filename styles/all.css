@@ -1,0 +1,67 @@
+/* fontes */
+@font-face {
+    font-family: Boingster;
+    src: url(../fonts/Boingster/Boingster-Regular.ttf);
+}
+
+@font-face {
+    font-family: chiptuneValentine;
+    src: url(../fonts/chiptune_valentine/chiptune-valentine.ttf);
+}
+
+/* configurações */
+
+:root{
+    --boing : Boingster ;
+    --valentine : chiptuneValentine ;
+    --branco: #eaeaea ;
+    --azul : #7EB8DC ;
+    --azulClaro : #92DDEA ;
+    --rosa : #FFA5D8 ;
+    --roxo : #BF9DDF ;
+    --roxoClaro : #957AD0 ;
+}
+
+/* todas as páginas */
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--boing);
+}
+
+/* banner */
+#banner{
+    background-image: url(../images/gifs/hugDog.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* comissões */
+#comissionStatus{
+    background-color: var(--branco);
+}
+
+#comissionInfo{
+    background-color: var(--roxoClaro);
+}
+
+#comissionInfo h1{
+    color: var(--rosa);
+}
+
+/* sessões */
+#lab{
+    background-color: var(--rosa);
+}
+
+#quality{
+    background-color: var(--azulClaro);
+}
+
+/* footer */
+footer{
+    background-color: var(--azul);
+}
+
+footer .btn{
+    background-color: var(--azulClaro);
+}
