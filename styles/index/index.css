@@ -24,3 +24,9 @@
 #quality{
     background-color: var(--azulClaro);
 }
+
+/* feedbacks */
+.feedbackImagePc{
+    width: 100px;
+    height: 100px;
+}

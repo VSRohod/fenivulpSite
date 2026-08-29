@@ -22,22 +22,29 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar bg-body-tertiary fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">>:3</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#">Feni ^^</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Um Link</a>
-                        </li>
-                    </ul>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -75,41 +82,298 @@
                 <img src="images/gifs/frostTremendo.gif" alt="Imagem de uma fursuit" class="w-100 rounded">
             </aside>
         </section>
+
+        <section id="feedbacks" class="container-fluid px-0 py-4 ">
+            <h1 class="text-center my-4">FEEDBACKS</h1>
+
+            <!-- mobile carousel -->
+            <div class="container-fluid d-block d-md-none">
+                <div id="carouselMobile" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+
+                        <!-- Card 1 -->
+                        <div class="carousel-item active">
+                            <div class="card p-4 text-center gap-3 d-flex flex-column align-items-center mx-auto"
+                                style="width: 18rem;">
+                                <div class="feedbackImage">
+                                    <img src="images/fotos/fursuitIcon.png" alt="feedback icon"
+                                        class="w-100 h-100 rounded-circle">
+                                </div>
+                                <div class="feedbackText text-center">
+                                    <h3>NOME 1</h3>
+                                    <p>Muitos feedbacks</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="carousel-item">
+                            <div class="card p-4 text-center gap-3 d-flex flex-column align-items-center mx-auto"
+                                style="width: 18rem;">
+                                <div class="feedbackImage">
+                                    <img src="images/fotos/chibiFrost.jpg" alt="feedback icon"
+                                        class="w-100 h-100 rounded-circle">
+                                </div>
+                                <div class="feedbackText text-center">
+                                    <h3>Kami 1</h3>
+                                    <p>Muitos feedbacks</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="carousel-item">
+                            <div class="card p-4 text-center gap-3 d-flex flex-column align-items-center mx-auto"
+                                style="width: 18rem;">
+                                <div class="feedbackImage">
+                                    <img src="images/fotos/image.png" alt="feedback icon"
+                                        class="w-100 h-100 rounded-circle">
+                                </div>
+                                <div class="feedbackText text-center">
+                                    <h3>Aurora Bloom 1</h3>
+                                    <p>Muitos feedbacks</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="carousel-item">
+                            <div class="card p-4 text-center gap-3 d-flex flex-column align-items-center mx-auto"
+                                style="width: 18rem;">
+                                <div class="feedbackImage">
+                                    <img src="images/fotos/fursuitIcon.png" alt="feedback icon"
+                                        class="w-100 h-100 rounded-circle">
+                                </div>
+                                <div class="feedbackText text-center">
+                                    <h3>NOME 2</h3>
+                                    <p>Muitos feedbacks</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 5 -->
+                        <div class="carousel-item">
+                            <div class="card p-4 text-center gap-3 d-flex flex-column align-items-center mx-auto"
+                                style="width: 18rem;">
+                                <div class="feedbackImage">
+                                    <img src="images/fotos/chibiFrost.jpg" alt="feedback icon"
+                                        class="w-100 h-100 rounded-circle">
+                                </div>
+                                <div class="feedbackText text-center">
+                                    <h3>Kami 2</h3>
+                                    <p>Muitos feedbacks</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 6 -->
+                        <div class="carousel-item">
+                            <div class="card p-4 text-center gap-3 d-flex flex-column align-items-center mx-auto"
+                                style="width: 18rem;">
+                                <div class="feedbackImage">
+                                    <img src="images/fotos/image.png" alt="feedback icon"
+                                        class="w-100 h-100 rounded-circle">
+                                </div>
+                                <div class="feedbackText text-center">
+                                    <h3>Aurora Bloom 2</h3>
+                                    <p>Muitos feedbacks</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselMobile"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselMobile"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- pc carousel -->
+            <div class="container-fluid d-none d-md-block">
+                <div id="carouselPc" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card-wrapper container-sm d-flex  justify-content-around">
+                                <!-- fursuiter 1 -->
+                                <div class="card p-4 text-center gap-3 d-flex flex-column align-items-center"
+                                    style="width: 18rem;">
+                                    <div class="feedbackImagePc">
+                                        <img src="images/fotos/fursuitIcon.png" alt="feedback icon"
+                                            class="w-100 h-100 rounded-circle">
+                                    </div>
+                                    <div class="feedbackText text-center">
+                                        <h3>NOME</h3>
+                                        <p>Muitos feedbacks</p>
+                                    </div>
+                                </div>
+                                <!-- fursuiter 2 -->
+                                <div class="card p-4 text-center gap-3 d-flex flex-column align-items-center"
+                                    style="width: 18rem;">
+                                    <div class="feedbackImagePc">
+                                        <img src="images/fotos/chibiFrost.jpg" alt="feedback icon"
+                                            class="w-100 h-100 rounded-circle">
+                                    </div>
+                                    <div class="feedbackText text-center">
+                                        <h3>Kami</h3>
+                                        <p>Muitos feedbacks</p>
+                                    </div>
+                                </div>
+                                <!-- fursuiter 3 -->
+                                <div class="card p-4 text-center gap-3 d-flex flex-column align-items-center"
+                                    style="width: 18rem;">
+                                    <div class="feedbackImagePc">
+                                        <img src="images/fotos/image.png" alt="feedback icon"
+                                            class="w-100 h-100 rounded-circle">
+                                    </div>
+                                    <div class="feedbackText text-center">
+                                        <h3>Aurora Bloom</h3>
+                                        <p>Muitos feedbacks</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card-wrapper container-sm d-flex   justify-content-around">
+                                <!-- fursuiter 4 -->
+                                <div class="card p-4 text-center gap-3 d-flex flex-column align-items-center"
+                                    style="width: 18rem;">
+                                    <div class="feedbackImagePc">
+                                        <img src="images/fotos/fursuitIcon.png" alt="feedback icon"
+                                            class="w-100 h-100 rounded-circle">
+                                    </div>
+                                    <div class="feedbackText text-center">
+                                        <h3>NOME</h3>
+                                        <p>Muitos feedbacks</p>
+                                    </div>
+                                </div>
+                                <!-- fursuiter 5 -->
+                                <div class="card p-4 text-center gap-3 d-flex flex-column align-items-center"
+                                    style="width: 18rem;">
+                                    <div class="feedbackImagePc">
+                                        <img src="images/fotos/chibiFrost.jpg" alt="feedback icon"
+                                            class="w-100 h-100 rounded-circle">
+                                    </div>
+                                    <div class="feedbackText text-center">
+                                        <h3>Kami</h3>
+                                        <p>Muitos feedbacks</p>
+                                    </div>
+                                </div>
+                                <!-- fursuiter 6 -->
+                                <div class="card p-4 text-center gap-3 d-flex flex-column align-items-center"
+                                    style="width: 18rem;">
+                                    <div class="feedbackImagePc">
+                                        <img src="images/fotos/image.png" alt="feedback icon"
+                                            class="w-100 h-100 rounded-circle">
+                                    </div>
+                                    <div class="feedbackText text-center">
+                                        <h3>Aurora Bloom</h3>
+                                        <p>Muitos feedbacks</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card-wrapper container-sm d-flex  justify-content-around">
+                                <!-- fursuiter 7 -->
+                                <div class="card p-4 text-center gap-3 d-flex flex-column align-items-center"
+                                    style="width: 18rem;">
+                                    <div class="feedbackImagePc">
+                                        <img src="images/fotos/fursuitIcon.png" alt="feedback icon"
+                                            class="w-100 h-100 rounded-circle">
+                                    </div>
+                                    <div class="feedbackText text-center">
+                                        <h3>NOME</h3>
+                                        <p>Muitos feedbacks</p>
+                                    </div>
+                                </div>
+                                <!-- fursuiter 8 -->
+                                <div class="card p-4 text-center gap-3 d-flex flex-column align-items-center"
+                                    style="width: 18rem;">
+                                    <div class="feedbackImagePc">
+                                        <img src="images/fotos/chibiFrost.jpg" alt="feedback icon"
+                                            class="w-100 h-100 rounded-circle">
+                                    </div>
+                                    <div class="feedbackText text-center">
+                                        <h3>Kami</h3>
+                                        <p>Muitos feedbacks</p>
+                                    </div>
+                                </div>
+                                <!-- fursuiter 9 -->
+                                <div class="card p-4 text-center gap-3 d-flex flex-column align-items-center"
+                                    style="width: 18rem;">
+                                    <div class="feedbackImagePc">
+                                        <img src="images/fotos/image.png" alt="feedback icon"
+                                            class="w-100 h-100 rounded-circle">
+                                    </div>
+                                    <div class="feedbackText text-center">
+                                        <h3>Aurora Bloom</h3>
+                                        <p>Muitos feedbacks</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPc"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselPc"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+        </section>
     </main>
 
-    <footer class="container-fluid px-4">
-        <div class="container-fluid row justify-content-between px-0 py-4 flex-column flex-md-row">
+</html>
 
-            <div class="col-12 col-md-3 mb-3 mb-md-0 d-flex justify-content-center" id="footer-left">
-                <img src="images/gifs/footerGif.gif" class="w-50 w-md-100" alt="gif para o footer">
-            </div>
+<footer class="container-fluid px-4">
+    <div class="container-fluid row justify-content-between px-0 py-4 flex-column flex-md-row">
 
-            <div class="col-12 col-md-5 d-flex flex-column align-items-center justify-content-center mb-3 mb-md-0"
-                id="footer-center">
-                <div id="footerBtns" class="mb-2">
-                    <button class="btn rounded"><i class="bi bi-instagram"></i></button>
-                    <button class="btn"><i class="bi bi-instagram"></i></button>
-                    <button class="btn"><i class="bi bi-instagram"></i></button>
-                    <button class="btn"><i class="bi bi-instagram"></i></button>
-                </div>
-                <div id="footerText">
-                    <p class="text-light">BARK BARK BARK.</p>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-3 d-flex justify-content-md-end justify-content-center" id="footer-right">
-                <ul>
-                    <li><a href="#" class="text-light">Link</a></li>
-                </ul>
-            </div>
-
+        <div class="col-12 col-md-3 mb-3 mb-md-0 d-flex justify-content-center" id="footer-left">
+            <img src="images/gifs/footerGif.gif" class="w-50 w-md-100" alt="gif para o footer">
         </div>
-    </footer>
+
+        <div class="col-12 col-md-5 d-flex flex-column align-items-center justify-content-center mb-3 mb-md-0"
+            id="footer-center">
+            <div id="footerBtns" class="mb-2">
+                <button class="btn rounded"><i class="bi bi-instagram"></i></button>
+                <button class="btn"><i class="bi bi-instagram"></i></button>
+                <button class="btn"><i class="bi bi-instagram"></i></button>
+                <button class="btn"><i class="bi bi-instagram"></i></button>
+            </div>
+            <div id="footerText">
+                <p class="text-light">BARK BARK BARK.</p>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-3 d-flex justify-content-md-end justify-content-center" id="footer-right">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#" class="text-light">Link</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" class="text-light">Link</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" class="text-light">Link</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" class="text-light">Link</a></li>
+            </ul>
+        </div>
+
+    </div>
+</footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
