@@ -1,0 +1,26 @@
+/* banner */
+#banner{
+    background-image: url(../../images/gifs/hugDog.gif);
+}
+
+/* comissões */
+#comissionStatus{
+    background-color: var(--branco);
+}
+
+#comissionInfo{
+    background-color: var(--roxoClaro);
+}
+
+#comissionInfo h1{
+    color: var(--rosa);
+}
+
+/* sessões */
+#lab{
+    background-color: var(--rosa);
+}
+
+#quality{
+    background-color: var(--azulClaro);
+}

@@ -29,32 +29,9 @@ h1,h2,h3,h4,h5,h6{
 
 /* banner */
 #banner{
-    background-image: url(../images/gifs/hugDog.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-/* comissões */
-#comissionStatus{
-    background-color: var(--branco);
-}
-
-#comissionInfo{
-    background-color: var(--roxoClaro);
-}
-
-#comissionInfo h1{
-    color: var(--rosa);
-}
-
-/* sessões */
-#lab{
-    background-color: var(--rosa);
-}
-
-#quality{
-    background-color: var(--azulClaro);
 }
 
 /* footer */
